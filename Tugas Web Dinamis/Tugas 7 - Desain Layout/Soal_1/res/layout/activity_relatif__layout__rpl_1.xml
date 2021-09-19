@@ -1,0 +1,102 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "fill_parent"
+    android:layout_height = "fill_parent"
+    android:gravity = "top">
+    
+    <TextView
+        android:id = "@+id/perintah_memasukkan_data"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:text = "Isilah Biodata Berikut Ini Dengan Benar!"
+        android:paddingTop = "15dip"
+        android:paddingLeft = "12dip" />
+	
+    
+    <!-- Nama -->
+    <TextView
+        android:id = "@+id/teks_nama"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:text = "Nama: "
+        android:paddingLeft = "12dip"
+        android:paddingTop = "40dip" />
+    
+    <EditText
+        android:id="@+id/entry_nama"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+		android:layout_marginLeft = "12px"
+		android:layout_marginRight = "12px"
+        android:layout_below = "@id/teks_nama" />
+    
+    
+    <!-- Alamat -->
+    <TextView
+        android:id = "@+id/teks_alamat"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:text = "Alamat: "
+        android:paddingLeft = "12dip"
+        android:paddingTop = "110dip" />
+    
+    <EditText
+        android:id="@+id/entry_alamat"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+		android:layout_marginLeft = "12px"
+		android:layout_marginRight = "12px"
+        android:layout_below = "@id/teks_alamat" />
+    
+    
+    <!-- Button -->
+    <Button
+        android:id = "@+id/next"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_below = "@id/entry_alamat"
+        android:layout_alignParentRight = "true"
+        android:layout_marginRight = "12px"
+        android:text = "Next" />
+    
+    
+    <!-- No Telp / HP -->
+    <TextView
+        android:id = "@+id/teks_no_telp"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:text = "No Telp / HP: "
+        android:paddingLeft = "12dip"
+        android:paddingTop = "230dip" />
+    
+    <EditText
+        android:id="@+id/entry_no_telp"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+		android:layout_marginLeft = "12px"
+		android:layout_marginRight = "12px"
+        android:layout_below = "@id/teks_no_telp" />
+    
+    
+    <!-- Button simpan dan cancel -->
+    <Button
+        android:id = "@+id/simpan"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_below = "@id/entry_no_telp"
+    	android:layout_marginLeft = "12px"
+        android:layout_alignParentLeft = "true"
+        android:text = "Simpan" />
+    
+    <Button
+        android:id = "@+id/cancel"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_below = "@id/entry_no_telp"
+    	android:layout_marginLeft = "175px"
+        android:layout_alignParentLeft = "true"
+        android:text = "Cancel" />
+</RelativeLayout>

@@ -1,0 +1,228 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+
+<TableLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "fill_parent"
+    android:layout_height = "fill_parent"
+    android:stretchColumns = "1" >
+    
+    <!-- New -->
+    <TableRow>
+        <TextView
+            android:text = "New"
+            android:padding = "5dip"
+            android:layout_marginTop = "3dip"
+            android:layout_marginLeft = "19dip" />
+        
+        <TextView
+            android:text = "Ctrl+N"
+            android:gravity = "right"
+            android:padding = "5dip"
+            android:layout_marginTop = "3dip"
+            android:layout_marginRight = "-88dip" />
+    </TableRow>
+    
+    
+    <!-- Open Files -->
+    <TableRow>
+        <TextView
+            android:text = "Open Files..."
+            android:padding = "5dip"
+            android:layout_marginLeft = "19dip" />
+        
+        <TextView
+            android:text = "Ctrl+O"
+            android:gravity = "right"
+            android:padding = "5dip"
+            android:layout_marginRight = "-88dip" />
+    </TableRow>
+    
+    
+    <!-- Garis Batas 1 -->
+    <View
+        android:id = "@+id/garis_batas_1"
+        android:layout_height = "2dip"
+        android:background = "#FF909090" />
+    
+    
+    <!-- Close -->
+    <TableRow>
+        <TextView
+            android:text = "Close"
+            android:padding = "5dip"
+            android:layout_marginLeft = "19dip" />
+        
+        <TextView
+            android:text = "Ctrl+W"
+            android:gravity = "right"
+            android:padding = "5dip"
+            android:layout_marginRight = "-88dip" />
+    </TableRow>
+    
+    
+    <!-- Close All -->
+    <TableRow>
+        <TextView
+            android:text = "Close All"
+            android:padding = "5dip"
+            android:layout_marginLeft = "19dip" />
+        
+        <TextView
+            android:text = "Ctrl+Shift+W"
+            android:gravity = "right"
+            android:padding = "5dip"
+            android:layout_marginRight = "-88dip" />
+    </TableRow>
+    
+    
+    <!-- Garis Batas 2 -->
+    <View
+        android:id = "@+id/garis_batas_2"
+        android:layout_height = "2dip"
+        android:background = "#FF909090" />
+    
+    
+    <!-- "X" Save -->
+    <TableRow>
+        <TextView
+            android:text = "X"
+            android:padding = "3dip"
+            android:layout_marginLeft = "1dip" />
+        
+        <TextView
+            android:text = "Save"
+            android:padding = "5dip"
+            android:layout_marginLeft = "-95dip" />
+        
+        <TextView
+            android:text = "Ctrl+S"
+            android:gravity = "right"
+            android:padding = "5dip" />
+    </TableRow>
+    
+    
+    <!-- "x" Save As -->
+    <TableRow>
+        <TextView
+            android:text = "X"
+            android:padding = "3dip"
+            android:layout_marginLeft = "1dip" />
+        
+        <TextView
+            android:text = "Save As..."
+            android:padding = "5dip"
+            android:layout_marginLeft = "-95dip" />
+    </TableRow>
+    
+    
+    <!-- "X" Save All -->
+    <TableRow>
+        <TextView
+            android:text = "X"
+            android:padding = "3dip"
+            android:layout_marginLeft = "1dip" />
+        
+        <TextView
+            android:text = "Save All..."
+            android:padding = "5dip"
+            android:layout_marginLeft = "-95dip" />
+        
+        <TextView
+            android:text = "Ctrl+Shift+S"
+            android:gravity = "right"
+            android:padding = "5dip" />
+    </TableRow>
+    
+    
+    <!-- Revert -->
+    <TextView
+        android:text = "Revert"
+        android:padding = "5dip"
+        android:layout_marginLeft = "19dip" />
+    
+    
+    <!-- Garis Batas 3 -->
+    <View
+        android:id = "@+id/garis_batas_3"
+        android:layout_height = "2dip"
+        android:background = "#FF909090" />
+    
+    
+    <!-- Move -->
+    <TextView
+        android:text = "Move"
+        android:padding = "5dip"
+        android:layout_marginLeft = "19dip" />
+    
+    
+    <!-- "x" Rename -->
+    <TableRow>
+        <TextView
+            android:text = "X"
+            android:padding = "3dip"
+            android:layout_marginLeft = "1dip" />
+        
+        <TextView
+            android:text = "Rename..."
+            android:padding = "5dip"
+            android:layout_marginLeft = "-95dip" />
+    </TableRow>
+    
+    
+    <!-- "X" Refresh -->
+    <TableRow>
+        <TextView
+            android:text = "X"
+            android:padding = "3dip"
+            android:layout_marginLeft = "1dip" />
+        
+        <TextView
+            android:text = "Refresh..."
+            android:padding = "5dip"
+            android:layout_marginLeft = "-95dip" />
+        
+        <TextView
+            android:text = "F5"
+            android:gravity = "right"
+            android:padding = "5dip" />
+    </TableRow>
+    
+    
+    <!-- Garis Batas 4 -->
+    <View
+        android:id = "@+id/garis_batas_4"
+        android:layout_height = "2dip"
+        android:background = "#FF909090" />
+    
+    
+    <!-- Print -->
+    <TableRow>
+        <TextView
+            android:text = "Print"
+            android:padding = "5dip"
+            android:layout_marginLeft = "19dip" />
+        
+        <TextView
+            android:text = "Ctrl+P"
+            android:gravity = "right"
+            android:padding = "5dip"
+            android:layout_marginRight = "-88dip" />
+    </TableRow>
+    
+    
+    <!-- Exit -->
+    <TableRow>
+        <TextView
+            android:text = "Exit"
+            android:padding = "5dip"
+            android:layout_marginLeft = "19dip" />
+        
+        <TextView
+            android:text = "Alt+F4"
+            android:gravity = "right"
+            android:padding = "5dip"
+            android:layout_marginRight = "-88dip" />
+    </TableRow>
+    
+</TableLayout>
