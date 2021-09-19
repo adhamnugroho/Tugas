@@ -5,7 +5,7 @@ import android.app.Activity;
 
 public class Relatif_Layout_RPL_1 extends Activity {
 	
-	// Called when the activity is first created.
+    // Called when the activity is first created.
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
