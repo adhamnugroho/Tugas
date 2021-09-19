@@ -29,8 +29,8 @@
         android:id="@+id/entry_nama"
         android:layout_width = "fill_parent"
         android:layout_height = "wrap_content"
-		android:layout_marginLeft = "12px"
-		android:layout_marginRight = "12px"
+	android:layout_marginLeft = "12px"
+	android:layout_marginRight = "12px"
         android:layout_below = "@id/teks_nama" />
     
     
@@ -47,8 +47,8 @@
         android:id="@+id/entry_alamat"
         android:layout_width = "fill_parent"
         android:layout_height = "wrap_content"
-		android:layout_marginLeft = "12px"
-		android:layout_marginRight = "12px"
+	android:layout_marginLeft = "12px"
+	android:layout_marginRight = "12px"
         android:layout_below = "@id/teks_alamat" />
     
     
@@ -76,8 +76,8 @@
         android:id="@+id/entry_no_telp"
         android:layout_width = "fill_parent"
         android:layout_height = "wrap_content"
-		android:layout_marginLeft = "12px"
-		android:layout_marginRight = "12px"
+	android:layout_marginLeft = "12px"
+	android:layout_marginRight = "12px"
         android:layout_below = "@id/teks_no_telp" />
     
     
