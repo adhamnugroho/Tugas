@@ -30,7 +30,7 @@
         android:layout_marginTop = "8dip" />
     
     
-    <!-- Textview -->
+    <!-- Result -->
     <TextView
         android:layout_width = "fill_parent"
         android:layout_height = "wrap_content"
