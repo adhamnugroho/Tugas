@@ -13,7 +13,7 @@ public class Harga_Bulpoin {
     
     
     // method 2
-    public String inputHarga_1(String harga_1) {
+    public String inputHarga(String harga_1) {
         return this.harga_1 = harga_1;
     }
 }
