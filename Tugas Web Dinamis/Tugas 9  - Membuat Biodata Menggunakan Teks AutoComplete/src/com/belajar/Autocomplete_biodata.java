@@ -13,8 +13,6 @@ import android.widget.TextView;
 import android.widget.Button;
 
 public class Autocomplete_biodata extends Activity implements TextWatcher, OnClickListener {
-
-	//Called when activity is first created
 	
 	TextView entryNama, entryAlamat;
 	AutoCompleteTextView entryKotaKab, entryAgama, entryHobi;
@@ -38,6 +36,8 @@ public class Autocomplete_biodata extends Activity implements TextWatcher, OnCli
 			"Menghitung", "Melamun"
 	};
 	
+	
+	//Called when activity is first created
 	
 	
 	@Override
