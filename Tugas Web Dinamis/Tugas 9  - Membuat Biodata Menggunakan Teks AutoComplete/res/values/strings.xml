@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Biodata Saver</string>
+    <string name="action_settings">Settings</string>
+    <string name="judulAtas">BIODATA SISWA</string>
+    <string name="nama">NAMA:</string>
+    <string name="alamat">ALAMAT:</string>
+    <string name="kota_kab">KOTA/KAB:</string>
+    <string name="agama">AGAMA:</string>
+    <string name="hobi">HOBI:</string>
+    <string name="simpan">SIMPAN</string>
+    <string name="hapus">HAPUS</string>
+
+</resources>
