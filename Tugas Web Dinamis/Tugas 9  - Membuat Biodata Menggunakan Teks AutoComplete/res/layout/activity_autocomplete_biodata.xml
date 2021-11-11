@@ -159,6 +159,7 @@
 	   	    android:layout_weight="1"
 	   	    >
 				
+				<!-- Tombol Simpan -->
 			   	<Button
 			   	    android:id="@+id/tombolSimpan"
 			   	    android:layout_width="wrap_content"
