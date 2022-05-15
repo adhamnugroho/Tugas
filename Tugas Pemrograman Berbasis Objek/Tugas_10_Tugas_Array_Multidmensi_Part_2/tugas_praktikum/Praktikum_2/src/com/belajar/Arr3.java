@@ -18,15 +18,12 @@ public class Arr3 {
         for(int i = 0; i < 2; i++) {
             // Looping dalam
             for(int j = 0; j < 3; j++) {
+                
                 System.out.print("Masukkan nilai ke-[" + i + "] [" + j +"]: ");
                 nilai[i][j] = input.nextInt();
-                
-                System.out.println("J: " + j);
             }
             
             System.out.println("-------------------------");
-            
-            System.out.println("i: " + i);
         }
         
         // Menutup object scanner       
