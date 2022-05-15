@@ -1,0 +1,27 @@
+// Menampilkan array
+// Dimensi 3       
+for (int i = 0; i < RGB.length; i++) {
+            
+    // Dimensi 2           
+    for (int j = 0; j < RGB[1].length; j++) {
+                
+        // Dimensi 1               
+        for (int k = 0; k < RGB[0][1].length; k++) {
+                    
+            System.out.print(RGB[i][j][k] + " ");
+        }
+                
+        System.out.println();
+    }
+            
+    System.out.println();
+}
+
+
+Index array numerik selalu dimulai dari 0. Untuk pembacaan array, dimulai dari for loop array yang paling dalam (for loop array dimensi 1). Untuk penulisan array disarankan di mulai dari array yang paling luar. Untuk kasus ini, dimulai dari for loop dimensi ke 3. 
+
+Di kondisi terminasi for loop dimensi ke 3, di array RGB-nya tidak menggunakan kurung siku. Karena for loop dimensi ke 3, dimensi terluar dari array. Dimensi ke 3, dibaca index ke 2 berdasarkan dimensi. 
+
+Di dimensi ke 2, di array RGB-nya menggunakan 1 pasang kurung siku, dengan value 1. Mengapa diisi value 1 di kurung siku? Sebenarnya bisa diisi 0 / 1, tidak boleh lebih dari 1. Kurung siku tersebut diisi 1, karena sebagai penanda bahwa dimensi ke 2 itu adalah index ke 1.
+
+Di dimensi ke 1, di array RGB-nya menggunakan 2 pasang kurung siku. Di kurung siku yang pertama diisi value 0 dan kurung siku ke 2 diisi value 1. Di kurung siku yang kiri, diisi value 0 karena sebagai penanda dimensi ke 1 itu adalah index ke 0. Kurung siku ke 2, saya isi dengan value 1, karena itu sebagai penanda untuk dimensi ke 2.
