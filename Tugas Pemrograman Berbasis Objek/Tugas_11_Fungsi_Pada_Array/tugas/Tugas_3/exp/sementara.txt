@@ -1,0 +1,37 @@
+( int max = Mahasiswa_3.listNilai[0]; )
+
+Dibaca: saya memasukkan elemen array listNilai index ke 0, ke dalam variabel max.
+
+( int min = Mahasiswa_3.listNilai[9]; )
+
+Dibaca: saya memasukkan elemen array listNilai index ke 9, ke dalam variabel min.
+
+
+
+max values:
+
+apabila di (
+
+	if(Mahasiswa_3.listNilai[i] > max) {
+
+            max = Mahasiswa_3.listNilai[i];
+        }
+) menemukan elemen yang lebih besar dari elemen sebelumnya, maka elemen sebelumnya akan langsung digantikan. Dan elemen tersebut akan langsung disimpan di local variabel max (
+	
+	int max = Mahasiswa_3.listNilai[0];
+) begitu seterusnya, sampai elemen dengan nilai terbesar ditemukan.
+
+
+
+min values:
+
+apabila di (
+
+	if(Mahasiswa_3.listNilai[i] < min) {
+
+            min = Mahasiswa_3.listNilai[i];
+        }
+) menemukan elemen yang lebih kecil dari elemen sebelumnya, maka elemen sebelumnya akan langsung digantikan. Dan elemen tersebut akan langsung disimpan di local variabel min (
+	
+	int min = Mahasiswa_3.listNilai[9];
+) begitu seterusnya, sampai elemen dengan nilai terkecil ditemukan.

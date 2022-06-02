@@ -1,0 +1,34 @@
+Variable Arguments (Varargs) in Java is a method that takes a variable number of arguments. Variable Arguments in Java simplifies the creation of methods that need to take a variable number of arguments.
+
+"Tiga Titik" di java disebut Argumen Variabel atau varargs. Ini memungkinkan metode menerima nol atau beberapa argumen. Varargs sangat membantu jika Anda tidak tahu berapa banyak argumen yang harus Anda sampaikan dalam metode ini.
+
+Dengan menggunakan variabel argument, memungkinkan kita untuk menulis array angka 1 dimensi dalam sebuah array.
+
+
+A. Mengapa butuh java Varargs?
+
+- Sampai JDK 4, kita tidak bisa mendeklarasikan metode dengan variabel no. argumen. Jika ada perubahan jumlah argumen, kita harus mendeklarasikan metode baru. Pendekatan ini meningkatkan panjang kode dan mengurangi keterbacaan.
+
+- Sebelum JDK 5, argumen panjang variabel dapat ditangani dengan dua cara. Satu menggunakan overloading method (satu untuk masing-masing / one for each), dan yang lain menempatkan argumen ke dalam array dan kemudian meneruskan array ini ke method. Keduanya berpotensi rawan kesalahan dan membutuhkan lebih banyak kode.
+
+- Untuk mengatasi masalah ini, Argumen Variabel (Varargs) diperkenalkan di JDK 5. Dari JDK 5 dan seterusnya, kita dapat mendeklarasikan metode dengan sejumlah argumen variabel. Jenis metode seperti itu disebut metode Varargs. Fitur varargs menawarkan opsi yang lebih sederhana dan lebih baik.
+
+
+B. Systax Varargs
+
+Secara internal, method Varargs diimplementasikan dengan menggunakan konsep array dimensi tunggal. Oleh karena itu, dalam method Varargs, kita dapat membedakan argumen dengan menggunakan Index. Argumen panjang variabel ditentukan oleh tiga titik atau titik (…).
+
+Contoh (
+	public static void fun(int... a) {
+   	
+		// method body
+	} 
+)
+
+Sintaks ini memberi tahu kompiler bahwa fun() dapat dipanggil dengan nol atau lebih argumen. Akibatnya, di sini, a secara implisit dideklarasikan sebagai array bertipe int[].
+
+Apabila ada method / function yang memiliki variabel parameter int, diikuti titik yang berjumlah tiga. Itu adalah variabel argumen (Varargs).
+
+Batas awal variabel argument ini adalah parameter sebelum parameter Varargs sudah terpenuhi. Batas akhir variabel argument ini adalah parameter yang memiliki tipe data yang berbeda.
+
+Varargs ini tidak memiliki batasan untuk banyaknya argument / index.
